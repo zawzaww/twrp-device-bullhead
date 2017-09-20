@@ -1,11 +1,15 @@
 # Inline kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/lge/bullhead
-TARGET_KERNEL_CONFIG := bullhead_defconfig
+# TWRP Inline Kernel by PureZ Kernel
+TARGET_KERNEL_CONFIG := purez_defconfig
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_USES_UNCOMPRESSED_KERNEL := true
+
+# F2FS Support
+TARGET_USERIMAGES_USE_F2FS := true
 
 # TWRP
 TW_THEME := portrait_hdpi
