@@ -1,7 +1,6 @@
 # Inline kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_KERNEL_SOURCE := kernel/lge/bullhead
-# TWRP Inline Kernel by PureZ Kernel
+TARGET_KERNEL_SOURCE := kernel/lge/purez-kernel-bullhead
 TARGET_KERNEL_CONFIG := purez_defconfig
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
@@ -22,13 +21,13 @@ TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_INCLUDE_CRYPTO := true
 RECOVERY_SDCARD_ON_DATA := true
 TW_MAX_BRIGHTNESS := 215
-TW_DEFAULT_BRIGHTNESS := 100
+TW_DEFAULT_BRIGHTNESS := 115
 TARGET_RECOVERY_DEVICE_DIRS := device/lge/bullhead
 TW_EXCLUDE_SUPERSU := true
 TW_NEVER_UNMOUNT_SYSTEM := true
 TW_NO_SCREEN_TIMEOUT := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
-TW_DEVICE_VERSION := bullhead by ZawZaw
+TW_DEVICE_VERSION := bullhead-3.2 by ZawZaw
 
 # Use device's audio_effects.conf
 TARGET_USE_DEVICE_AUDIO_EFFECTS_CONF := true
