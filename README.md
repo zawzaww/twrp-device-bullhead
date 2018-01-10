@@ -7,4 +7,4 @@
 
 #### Nexus 5X Device Tree For Building Recovery TWRP
 
-// Maintained by: ZawZaw @XDA-Developers
+// Maintained by: ZawZaw [@XDA-Developers](https://forum.xda-developers.com/member.php?u=7581611)
